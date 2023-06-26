@@ -3,18 +3,38 @@ span{padding-bottom:0px;}
 header{
     height: 100% ;
 }
+
 .margin{margin-bottom: 0;}
+
 h1{
 padding-top: 20px;
 text-align: center;
 }
+
 h3{margin-top: 0px;
     margin-bottom:0;
     font-weight: bold;
     
 }
+
 .fontColorWhite{color:rgb(255, 255, 255);}
 .bodyColorBlack{background-color: #080808;}
+.greenSoftBackGround1{
+  display: inline-block;
+  line-height: 1;
+  padding: 13px;
+  border-radius: 23px;
+  transition: 0.8s;}
+  .greenSoftBackGround1:hover{
+    background-color:#33FF53
+  }
+
+  .position{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  
+  }
 body {
     background: #000000;
     margin:0;
